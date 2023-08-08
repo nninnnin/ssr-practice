@@ -1,5 +1,7 @@
 # SSR practices
 
+### Stream?
+
 - [React Server APIs for Node.js Streams](https://react.dev/reference/react-dom/server#server-apis-for-nodejs-streams)
 
   - `renderToPipeableStream` renders a React tree to a pipeable Node.js Stream.
@@ -14,3 +16,7 @@
 
 - [The HTTP interface in Node.js](https://nodejs.org/api/http.html#http) are designed to support many features of the protocol which have been traditionally difficult to use. **In particular, large, possibly chunk-encoded, messages.** The interface is careful to never buffer entire requests or responses, _so the user is able to stream data_.
   - In order to support the full spectrum of possible HTTP applications, the Node.js HTTP API is very low-level. It deals with stream handling and message parsing only.
+
+### Babel preset vs plugin?
+
+- [Presets are just a collection of plugins.](https://stackoverflow.com/a/45943890/9781499)
