@@ -1,5 +1,9 @@
 # SSR practices
 
+## Achievements
+
+- [x] `renderToString` 을 사용해 리액트 컴포넌트를 서버사이드에서 렌더링하고 클라이언트로 전달하기
+
 ### Stream?
 
 - [React Server APIs for Node.js Streams](https://react.dev/reference/react-dom/server#server-apis-for-nodejs-streams)
