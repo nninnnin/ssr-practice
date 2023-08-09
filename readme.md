@@ -20,3 +20,8 @@
 ### Babel preset vs plugin?
 
 - [Presets are just a collection of plugins.](https://stackoverflow.com/a/45943890/9781499)
+
+### 어떻게 index.js에서 .jsx파일을 가져올 수 있나?
+
+- 도저히 가져올 수 없어서 index.js와 App.jsx를 바벨로 빌드하면서, 컴포넌트는 js파일로 트랜스파일링 함과 동시에 index.js에서 임포트하는 구문의 확장자 `App.jsx`를 바벨 플러그인을 사용해 `App.js` 로 바꿔주었다.
+- 확장자 변경에 사용된 플러그인은 `babel-plugin-replace-import-extension`
